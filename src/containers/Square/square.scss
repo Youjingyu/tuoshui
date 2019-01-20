@@ -1,0 +1,11 @@
+.square {
+  background: #fff;
+  padding: 0 .16rem;
+  position: absolute;
+  padding-top: .32rem;
+  height: calc(100% - 2.6rem);
+  width: 100%;
+  box-sizing: border-box;
+  top: 1.12rem;
+  z-index: 111;
+}

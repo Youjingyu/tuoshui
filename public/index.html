@@ -19,13 +19,29 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>脱水</title>
+    <script>
+      !function t() {
+        var e = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        e = e < 320 ? 320 : e,
+        document.documentElement.style.fontSize = e * (100 / 750) + "px",
+        window.onresize || (window.onresize = function() {
+            var e, o;
+            e = t,
+            o = 0,
+            clearTimeout(o),
+            o = setTimeout(function() {
+                e()
+            }, 300)
+        })
+      }()
+    </script>
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root"></div>
+    <div id="root" class="main-box"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

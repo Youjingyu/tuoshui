@@ -1,0 +1,30 @@
+@import 'styles/variables.scss';
+
+.header {
+  background: $MainColor;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: 112;
+  padding: .24rem .48rem;
+  transition: .2s;
+  span {
+    float: left;
+    font-size: .36rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    padding: .12rem .26rem;
+    font-weight: 700;
+    font-family: STYuanti-SC-Bold;
+    margin-right: .2rem;
+    &.active {
+      color: #16171b;
+      background: #fff;
+      box-shadow: 0 5px 10px 0 rgba(30,30,30,.2);
+      border-radius: 6px;
+    }
+  }
+}
