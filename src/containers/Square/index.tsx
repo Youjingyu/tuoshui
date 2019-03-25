@@ -5,7 +5,7 @@ import './square.scss';
 export default class Header extends React.Component {
   public render () {
     return (
-      <main className="square">
+      <main styleName="square">
         <ShareInput/>
       </main>
     );

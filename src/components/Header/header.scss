@@ -10,6 +10,7 @@
   z-index: 112;
   padding: .24rem .48rem;
   transition: .2s;
+
   span {
     float: left;
     font-size: .36rem;
@@ -20,10 +21,11 @@
     font-weight: 700;
     font-family: STYuanti-SC-Bold;
     margin-right: .2rem;
+
     &.active {
       color: #16171b;
       background: #fff;
-      box-shadow: 0 5px 10px 0 rgba(30,30,30,.2);
+      box-shadow: 0 5px 10px 0 rgba(30, 30, 30, .2);
       border-radius: 6px;
     }
   }

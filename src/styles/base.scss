@@ -1,0 +1,21 @@
+:global {
+  .clearfix {
+    zoom: 1;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+  }
+
+  .main-box {
+    min-width: 320px;
+    position: relative;
+    width: 100%;
+    transform: none;
+    height: 100%;
+    overflow: hidden;
+  }
+}
